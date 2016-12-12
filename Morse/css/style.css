@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#36393B;
+}
+
+#main {
+  position: relative;
+}
+
+#digits {
+  color: #696758;
+  font-family: 'Arial';
+  padding-bottom: 8px;
+  transform: rotate(180deg);
+  margin: 0;
+}
+
+#code {
+  font-size: 80px;
+  color: #FC3A51;
+  font-family: 'Arial';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.selected {
+  color: #FC3A51;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color: #222;
+}
+
+.contents {
+  display: flex;
+  display: -webkit-flex;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 360px;
+  width: 360px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}

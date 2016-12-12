@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://matto.io/WatchRoulette" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="nj8O8Iebyw.WatchRoulette" package="nj8O8Iebyw" required_version="2.3.2"/>
+    <author href="https://matto.io" email="mattogodoy@gmail.com">Matias Godoy</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/input.rotating_bezel"/>
+    <icon src="wheel.png"/>
+    <name>WatchRoulette</name>
+    <tizen:profile name="wearable"/>
+</widget>

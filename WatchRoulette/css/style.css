@@ -1,0 +1,77 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 360px;
+	width: 360px;
+    background-image: url("../images/wheel.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.overlay {
+	display: none;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url("../images/win.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 40px;
+	color: #fff;
+}
+
+.subtitle {
+	font-size: 20px;
+	color: #fff;
+}
+
+.attempts {
+	font-weight: bold;
+}
+
+.ball {
+	position: absolute;
+    top: 0;
+    left: 168px;
+    width: 24px;
+    height: 360px;
+    background-repeat: no-repeat;
+    transform: rotate(2deg);
+    background-image: url("../images/ball.png");
+    background-position: 25% 64px;
+    background-size: 50%;
+}
+
+.bet-arrow {
+	position: absolute;
+    top: 0;
+    left: 160px;
+    width: 40px;
+    height: 360px;
+    background-repeat: no-repeat;
+/*     transform: rotate(5deg); */
+    background-image: url("../images/arrow.png");
+    background-position: 25% -2px;
+    background-size: 100%;
+}
